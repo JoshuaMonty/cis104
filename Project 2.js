@@ -92,9 +92,9 @@ function setPremiumDueDate() {
 
 function printInsurancePremium() {
     process.stdout.write('\x1Bc');
-    console.log(`\nPolicy #${PolicyNumber} \n${FirstName} ${LastName} \nDOB ${DateOfBirth} \nInsurance Premium: \$${InsurancePremium}\nPremium Due Date: ${PremiumDueDate}`);
+    console.log(`\n ${PolicyNumber} \n ${FirstName} ${LastName} \n ${DateOfBirth} \n ${InsurancePremium} \n ${PremiumDueDate}`);
 }
 
 function printGoodbye() {
-    console.log(`\n\tThank You! Good-Bye! `);
+    console.log(`\nThank You! Good-Bye! `);
 }
