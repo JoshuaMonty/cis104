@@ -2,8 +2,8 @@
 const PROMPT = require('readline-sync');
 
 let continueResponse;
-let LastName, FirstName, DateofBirth, Age;
-let PolicyNumber, PremiumDueDate, AtFaultAccidents, InsurancePremium;
+let LastName, FirstName, DateOfBirth, Age;
+let AtFaultAccidents, PolicyNumber, InsurancePremium, PremiumDueDate;
 
 function main() {
     if (continueResponse !== 0 && continueResponse !== 1) {
