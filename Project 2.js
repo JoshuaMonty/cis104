@@ -96,5 +96,5 @@ function printInsurancePremium() {
 }
 
 function printGoodbye() {
-    console.log(`\nThank You! Good-Bye! `);
+    console.log(`\nThank You, Goodbye! `);
 }
